@@ -26,7 +26,7 @@ body {
 .card {
     width: 100%;
     padding: 0.6em;
-    max-width: 400px;
+    max-width: 420px;
     background: var(--black);
     border-radius: var(--r);
 }
@@ -47,7 +47,7 @@ body {
 }
 
 footer {
-    width: 80%;
+    width: 90%;
     margin: 2em auto;
     text-align: center;
 }
@@ -55,7 +55,7 @@ footer {
 h1 {
     color: var(--gray);
     font-size: 1.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
 }
 
 p {
@@ -70,11 +70,11 @@ button {
     padding: 0.2em;
     cursor: pointer;
     font-size: 0.9em;
-    padding-left: 1em;
+    padding-left: 1.5em;
     color: var(--gray);
     border-radius: 25px;
     border: solid 1px #666666;
-    background: linear-gradient(to right, transparent 10%, var(--dark) 70%);
+    background: linear-gradient(to right, transparent 5%, var(--dark) 95%);
 }
 
 .icon {
