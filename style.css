@@ -3,7 +3,7 @@
     --black: #020202;
     --gray: #C0C0C0;
     --dark: #434343;
-    --r: 4px;
+    --r: 8px;
 }
 
 * {
@@ -22,6 +22,7 @@ body {
     width: 100%;
     max-width: 400px;
     background: var(--black);
+    border-radius: var(--r);
 }
 
 .flex {
