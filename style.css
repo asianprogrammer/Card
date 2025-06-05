@@ -40,6 +40,11 @@ body {
     display: flex;
 }
 
+footer {
+    margin: 2em 0;
+    text-align: center;
+}
+
 .F-center {
     align-items: center;
     justify-content: center;
@@ -51,4 +56,8 @@ body {
 
 .F-space {
     justify-content: space-between;
+}
+
+.FW {
+    flex-direction: column;
 }
