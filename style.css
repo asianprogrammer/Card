@@ -6,6 +6,11 @@
     --r: 20px;
 }
 
+@font-face {
+    font-family: Gal;
+    src: url(./assets/fonts/GalanoGrotesqueRegular.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +20,7 @@
 body {
     min-height: 100vh;
     background: white;
+    font-family: Gal;
 }
 
 .card {
