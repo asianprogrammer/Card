@@ -65,6 +65,16 @@ p {
     margin-bottom: 2em;
 }
 
+button {
+    outline: none;
+    font-size: 1em;
+    color: var(--gray);
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    border: solid 1px #666666;
+    background: linear-gradient(to right, transparent 10%, var(--dark) 70%);
+}
+
 .F-center {
     align-items: center;
     justify-content: center;
